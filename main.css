@@ -1,0 +1,49 @@
+
+html,body{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:arial;
+}
+
+.container{
+	width:900px;
+	margin:0 auto;
+}
+
+h1, h2, h3{
+	margin-top:0;
+}
+p{
+	margin: 0 0 20px;
+}
+.tab-items{
+	float:left;
+	width:250px;
+	margin-right:20px;
+}
+#tabs-content{
+	float:left;
+	width:630px;
+}
+.tab-items ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+.tab-items li{
+	padding:5px;
+	cursor: pointer;
+	border-right:#eee solid 1px;
+}
+.tab-items li.active{
+	border-right:0;
+}
+.tab-content{
+	display:none;
+}
+.first{
+	display:block;
+}
