@@ -36,10 +36,13 @@ p{
 .tab-items li{
 	padding:5px;
 	cursor: pointer;
-	border-right:#eee solid 1px;
+	background:#eee;
+	margin-bottom:6px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
 .tab-items li.active{
-	border-right:0;
+	background:#fff;
 }
 .tab-content{
 	display:none;
